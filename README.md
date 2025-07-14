@@ -1,8 +1,11 @@
 # Android Tools
+ 
+An alternative way to install the essential command line tools like `adb` or `fastboot`.
 
-## Description:  
-An alternative way to install the [Android SDK Platform Tools]( https://developer.android.com/tools/releases/platform-tools)
-from [Git Repository](https://github.com/nmeum/android-tools).  
+## URL:
+
+ - [Android SDK Platform Tools]( https://developer.android.com/tools/releases/platform-tools "https://developer.android.com/tools/releases/platform-tools")  
+ - [Git Repository](https://github.com/nmeum/android-tools "https://github.com/nmeum/android-tools")
 
 ## Installation:
 To install `android-tools`, run the following command:  
@@ -10,19 +13,3 @@ To install `android-tools`, run the following command:
 ```bash
 kcp -i android-tools
 ```
-### Libraries required by android-tools:  
-
-    libusb
-    pcre2
-    protobuf
-    brotli
-    zstd
-    lz4
-
-### Software required at compile-time:  
-
-    cmake
-    ninja
-    git
-    googletest
-    go
