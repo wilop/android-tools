@@ -1,5 +1,5 @@
 pkgname=android-tools
-pkgver=36.0.1
+pkgver=37.0.0p1
 pkgrel=1
 pkgdesc='Android platform tools'
 arch=(x86_64)
@@ -9,7 +9,7 @@ depends=(fmt protobuf brotli zstd pcre2 lz4)
 makedepends=(googletest cmake go ninja git)
 optdepends=('python: {mk,unpack_,repack_}bootimg and mkdtboimg support')
 source=($url/releases/download/$pkgver/android-tools-$pkgver.tar.xz)
-sha256sums=('38e8a84b739480141de0836bf6d581b3339ac7d53d0f7ce8c044a3368c8c2f8f')
+sha256sums=('2c6de1abe16b211c7d9f59276217e14fd9e0e18b20e331d3c84358f5dffd576e')
 
 build() {
   cd android-tools-$pkgver
